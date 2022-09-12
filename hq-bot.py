@@ -135,7 +135,7 @@ def print_results(search_objects_array, highest_ranked_answer):
 # main method, entry point of program
 if __name__ == "__main__":
     img = ImageGrab.grab(bbox=(0,150,490,650)) # X1,Y1,X2,Y2
-    img.save('/Users/Brett/Development/python-sandbox/testimage.png')
+    img.save('/Users/Brett/Development/hq-bot/testimage.png')
     
     image_text_list = google_vision_response(img, 'testimage.png')
 
